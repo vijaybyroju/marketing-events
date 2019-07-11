@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Equipment Request" max_length="40" name="x_376574_marketing_equipment_request" type="collection">
+        <element label="Marketing event" max_length="32" name="marketing_event" reference="x_376574_marketing_events_table" type="reference"/>
+        <element label="Needed from" max_length="40" name="needed_from" type="glide_date"/>
+        <element label="Needed until" max_length="40" name="needed_until" type="glide_date"/>
+        <element display="true" label="Type" max_length="32" name="type" reference="cmdb_hardware_product_model" type="reference"/>
+    </element>
+</database>
